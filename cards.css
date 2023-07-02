@@ -1,0 +1,48 @@
+main{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+
+
+}
+.card:hover{ 
+    box-shadow: none;
+    transition: .5s;
+}
+
+.card{
+   
+   width: 20%;
+   border-radius: 20px;
+   margin-top: 50px;
+   background-color: var(--tercery-color);
+   display: grid;
+   grid-template-columns:4;
+   margin: 50px;
+   row-gap: 0px;
+   cursor: pointer;
+   box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   
+   
+}
+
+
+.foto img{
+    width: 100%;
+    border-radius: 15px;
+}
+.title{ 
+     text-align: center;
+     font-family: 'Roboto';
+     margin: 0px;
+}
+.des{
+    text-align: center;
+    font-family: 'Roboto';
+    margin: 0px;
+}
+.precio{ 
+    text-align: center;
+    font-family: 'Roboto';
+    margin: 0px;
+}

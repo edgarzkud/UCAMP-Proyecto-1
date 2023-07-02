@@ -1,0 +1,76 @@
+.container{
+   
+    display: flex;
+    height: 450px;
+    
+ 
+}
+.email{
+display: grid;
+row-gap: 0px;
+text-align: center;
+justify-items: center;
+grid-template-rows: 100px 50px 50px 100px;
+margin: 50px 0px 0px 50px; 
+row-gap: 18px;  
+vertical-align: top;
+background-color: var(--tercery-color);
+padding: 20px;
+border-radius: 30px;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);;
+
+}
+.container .email input{
+    width: 300px;
+    height: 50px;
+    border-style: solid; border-width: 1px; border-radius: 10px;
+    margin: 30px 0px 0px 0px;
+    padding: 0px 0px 0px 10px;
+    justify-content: center;
+    font-size: 14px;
+    
+
+}
+.container .email input:hover{
+    box-shadow: 0px 0px 3px 0px; box-shadow: color(0 0 0 0);
+}
+
+
+.Visitanos{
+    display: grid;
+    margin-top: 2rem;
+    margin-left: 425px;
+    vertical-align: top;
+    background-color:var(--tercery-color);
+    border-radius: 40px;
+    row-gap: none;
+    margin-right: 50px;
+    padding: 8px 8px 0px 8px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+    
+
+}
+.clienta{
+    width: 20em; height: 20em;
+    border-radius: 140px;
+    margin-left: 25px;
+    
+    
+    
+    
+}
+
+.container h1, h2, h3{ 
+    margin: 0px 0px 0px 0px;
+    width: 300px; height: 150px;
+    font-family: 'Roboto';
+      
+}
+.container .Visitanos p{ 
+    font-family: 'Roboto';
+    font-size: 15px; text-align: center;
+}
+.Visitanos p{ 
+    margin: 0px;
+}

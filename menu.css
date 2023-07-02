@@ -1,0 +1,25 @@
+.menubox{
+    background-color: var(--secondary-color);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    height: 80px;
+    padding-top: 10px;
+    
+   
+    
+    
+
+}
+.tegra{
+    color: white;
+    display: flex;
+    justify-content: center;
+    row-gap: 0px;
+    margin: 0px 0px 0px 0px;
+}
+.menubox p{ 
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 5px;
+}

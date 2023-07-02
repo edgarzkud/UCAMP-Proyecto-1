@@ -1,0 +1,78 @@
+*{ 
+    margin: none;
+    padding: none;
+}
+:root{ 
+    --priamry-color: white;
+    --secondary-color: black; 
+    --tercery-color: rgb(244, 244, 244);
+}
+
+
+header{
+    
+    background-color: var(--secondary-color);
+    width: 1fr;
+    height: 10em;
+    border-radius: 25px;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;    
+}
+
+.logo{
+    width: 8em; height: 8em;
+    grid-column-start: 2;
+    justify-self: center;
+    margin-top: 17px;
+  
+    
+
+   
+
+}
+.redessocial{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin:50px 0px 0px 50px;
+    
+    
+
+    
+}
+.siguenos{
+    color: var(--priamry-color);
+    font-family: 'Roboto';
+    font-size: 1.5rem;
+    row-gap: 20px;
+    grid-row-start: 3;
+
+    
+    
+    
+}
+.iconos{
+    display: flex;
+    margin-right: 30px;
+    margin-top: 5px;
+}
+.instagram{
+   margin-right: 8px;
+   width: 20px; height: 20px;
+   cursor: pointer;
+}
+.facebook{
+    width: 20px; height: 20px;
+   cursor: pointer;
+}
+.container .visitanos p{
+    font-family: 'Roboto'; font-weight: bold;
+
+}
+.backgrouncontainer{
+    display: flex;
+    background-color: var(--tercery-color);
+    padding: auto;
+
+}
