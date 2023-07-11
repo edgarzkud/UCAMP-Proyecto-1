@@ -6,6 +6,7 @@ footer{
     justify-content: center;
     padding-bottom: 15px;
     border-radius: 20px;
+    width: 100%;
 }
 .creditos{ 
     display: flex;
@@ -20,6 +21,6 @@ footer h2{
     margin: 0px;
 }
 footer h3{ 
-    width: 300px;
+    width: 250px;
     height: 50px;
 }

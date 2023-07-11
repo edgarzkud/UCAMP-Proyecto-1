@@ -1,0 +1,55 @@
+@media (max-width:500px){
+    .cosas{ 
+        flex-direction: column;
+        justify-content: center; 
+        align-items: center;
+    }
+    .email, .Visitanos{ 
+        margin: 0px; width: 250px; height: 300px;
+        
+    }
+    .siguenos{
+        display: none;
+    }
+    .somos2{ 
+        font-size: 12px;
+        text-align: center; width: 200px;
+    }
+    .card{ 
+        margin-bottom: 0px;
+    }
+    .dicho{ 
+        font-size: 12px; margin-top: 25px;
+    }
+    .horario{
+        font-size: 12px; margin-top: 25px;
+    }
+    .oferta{ 
+        font-size: 10px; margin-top: 25px;
+    }
+    .manda{ 
+        width: 200px; margin-top: 25px;
+    }
+    .email{
+        grid-template-rows: 50px 50px 50px 50px;
+        margin-bottom: 20px;
+    }
+    .clienta{ 
+        width: 200px; height: 150px; margin: 0px; display: flex; justify-content: center;
+        margin-left: 15px;
+    }
+    .Visitanos p{ 
+        font-size: 12px; margin-top: 10px;
+    }
+    .Visitanos{
+        display: flex; flex-direction: column;
+        row-gap: 10px 10px 10px;
+    }
+    .menu{ 
+        margin-bottom: 20px;
+    }
+    footer{
+        margin-top: 20px;
+    }
+ 
+}
